@@ -1,13 +1,4 @@
 /**
- * Variables - Symbolic names to receive some value;
- * Identifiers
- * Three reserved words to create a variable:
- *  - var
- *  - let
- *  - const
- */
-
-/**
  * I declare clima variable and assign value "Quente" to clima variable
  */
 var clima = "Quente";

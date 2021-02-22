@@ -1,8 +1,4 @@
 /**
- * Dynamic Types - JS is a weakly typed language
- */
-
-/**
  * Let's verify the type of clima variable (string)
  */
 
