@@ -168,3 +168,102 @@ console.log(user1);
 ```
 
 ## Manipulating data
+### Prototype
+- JS is a prototype-based language.
+- Some functionalities in JS is in a prototype chain.
+- Most data types in JS are encapsulated by an object.
+
+### Type Conversion X Type Coersion
+- Alters a data type to other type data.
+- Type conversion or typecasting will alter a data type to other type.
+- Type coersion it will be the JS forcing the change of data type.
+- Sometimes the JS will use the typecasting to convert data type.
+
+### Manipulating some data
+```js
+// Transform string into number and number into string
+let string = "123";
+console.log(Number(string));
+
+let number = 321;
+console.log(Number(number));
+
+// Counting characters and couting numbers
+let word = "Paralelepipedo";
+console.log(word.length);
+let number = 1234;
+// Transforming the number into string to see the length of this number.
+console.log(String(number.length));
+
+// Transform a float number into a float number with two decimal places and replace the period with a comma.
+let number = 345.334455;
+// Two decimal places
+let numberFixed = number.toFixed(2);
+// Replace the period with a comma
+let numberComma = numbeFixed.replace(".", ",");
+console.log(numberComma);
+
+// Make lowercase letters uppercase and vice versa.
+let word = "Development is cool";
+let wordUpperCase = word.toUpperCase();
+let wordLowerCase = word.toLowerCase();
+console.log(`${wordUpperCase}, ${wordLowerCase}`);
+
+// Check if the text contains a certain word.
+let phrase = "I want to live";
+let checkWord = phrase.includes("want");
+console.log(checkWord);
+
+// Create a phrase
+let phrase = "I want to live";
+// Array where each word is a index of an array.
+let myArray = phrase.split(" ");
+// Transform the array into a phrase and where spaces were, put underscore.
+let phraseWithUnderscore = myArray.join("_");
+console.log(phraseWithUnderscore);
+
+// Create an Array with a constructor
+let myArray = new Array("Love", "Peace");
+console.log(myArray);
+
+// Counting elements of an array
+let simpleArray = ['a', 'b', 'c'];
+console.log(simpleArray.length);
+
+// Transform a chain of characters into array
+let word = "love";
+console.log(Array.from(word));
+
+// Manipulating Arrays
+let techs = ["html", "css", "js", "php", "java"];
+
+// Adding a item in the last index of array
+techs.push("nodejs");
+console.log(techs);
+
+// Adding a item in the firt index of array
+techs.unshift("sql");
+console.log(techs);
+
+// Remove a item from the end of array
+techs.pop();
+console.log(techs);
+
+// Remove a item from the start of array
+techs.shift();
+console.log(techs);
+
+// Take some elements from the array
+techs.slice(1,3);
+console.log(techs);
+
+// Remove some items of any index from the array
+techs.splice(2);
+console.log(techs);
+
+// Found the index of an element from the array
+let index = techs.indexOf('css');
+console.log(index);
+
+```
+## Expressions and Operators
