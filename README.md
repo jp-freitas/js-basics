@@ -267,3 +267,98 @@ console.log(index);
 
 ```
 ## Expressions and Operators
+- Expression is a line of code that does anything in JS.
+- It doesn't have to end with ;.
+```js
+// Example of an expression.
+let number = 1;
+```
+### New Expression
+- left-hand-side expression.
+- Create a new object.
+
+### Unary Operators
+- typeof
+- delete
+
+### Arithmetic Operators
+```js
+// Multiplication
+console.log(15.4 * 8.45);
+
+// Division
+console.log(34 / 6);
+
+// Sum
+console.log(25 + 25);
+
+// Subtraction
+console.log(34 - 7);
+
+// Remainder
+let remainder
+remainder = 11 % 9
+console.log(remainder);
+
+// Increment
+let increment = 0
+++increment;
+console.log(increment);
+
+// Decrement
+let decrement = 0;
+--decrement;
+console.log(decrement);
+
+// Exponential
+console.log(3 ** 3);
+```
+### Grouping operator
+```js
+// The correct order in Math
+let total = 3 + 2 * 5;
+console.log(total);
+
+// Grouping operator changes the order
+let total1 = (3 + 2) * 5;
+console.log(total);
+```
+### Comparison Operators
+- It will be compare value and return a boolean as a response of that comparison.
+```js
+let one = 1;
+let two = 2;
+
+// ==  equal
+console.log(one == 1);
+console.log(two == 2);
+
+// !=  diferente
+console.log(one != two);
+console.log(one != 1);
+console.log(two != 2);
+console.log(one != "1");
+console.log(two != "2");
+
+// === estritamente igual
+console.log(one === "1");
+console.log(one === 1);
+console.log(two === 2);
+
+// !== estritamente diferente
+console.log(one !== two );
+console.log(two !== one );
+
+// >   maior
+console.log(one > two);
+
+// >=  maior igual
+console.log(two >= one);
+
+// <   menor
+console.log(one < two);
+
+// <=  menor igual
+console.log(one <= two);
+
+```
