@@ -521,3 +521,25 @@ _ Order from most importante to least important:
 - OR                                = ||
 - Conditional                       = ? :
 - Assignment                        = = += -= *=
+
+## Conditional and control flow
+### If and Else
+- Transform the condition into variables.
+- Accept values Truthy and Falsy.
+
+```js
+let temperature = 36.5
+
+let higherTemperature = temperature >= 37.5;
+
+let mildTemperature = temperature < 37.5 && temperature >= 37;
+
+if (higherTemperature) {
+    console.log(`${temperature} - High Fever`);
+} else if (mildTemperature) {
+    console.log(`${temperature} - Mild Fever`);
+} else {
+    console.log(`${temperature} - Normal`);
+}
+
+```
