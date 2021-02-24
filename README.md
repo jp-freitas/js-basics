@@ -362,3 +362,162 @@ console.log(one < two);
 console.log(one <= two);
 
 ```
+### Assignment Operators
+```js
+// Assignment
+a = 1;
+console.log(a);
+
+// Addition Assignment
+a += 2;
+console.log(a);
+
+// Subtraction Assignment
+a -= 1;
+console.log(a);
+
+// Multiplication Assignment
+a *= 2;
+console.log(a);
+
+// Division Assignment
+a /= 2;
+console.log(a);
+
+// Remainder
+a %= 2;
+console.log(a);
+
+// Exponetiation
+a **= 2;
+console.log(a);
+ 
+```
+### Logical Operators
+- Boolean values.
+- Return of verification is true or false.
+- AND &&: Both statements must be true for the verification return to be true.
+- OR ||: One of the statements must be true for the verification to return true.
+- NOT !: Variable value will be negated, if the value is true, using the operator will be false
+```js
+let bread = true;
+let cheese = true;
+
+// AND &&
+console.log(bread && cheese); // true
+
+// OR ||
+console.log(bread || cheese); // true
+
+// NOT !
+console.log(!bread); // false
+```
+### Ternary Operator
+- Depending on the condition that is passed, we will receive different values.
+```js
+let bread = true;
+let cheese = true;
+const niceBreakfast = bread && cheese ? 'Nice Breakfast' : 'Bad Breakfast';
+console.log(`bread = true AND cheese = true -> ${niceBreakfast}`);
+
+let bread = true;
+let cheese = false;
+const niceBreakfast = bread && cheese ? 'Nice Breakfast' : 'Bad Breakfast';
+console.log(`bread = true AND cheese = false -> ${niceBreakfast}`);
+
+let bread = true;
+let cheese = false;
+const niceBreakfast = bread || cheese ? 'Nice Breakfast' : 'Bad Breakfast';
+console.log(`bread = true OR cheese = false -> ${niceBreakfast}`);
+
+let bread = false;
+let cheese = true;
+const niceBreakfast = bread || cheese ? 'Nice Breakfast' : 'Bad Breakfast';
+console.log(`bread = true OR cheese = false -> ${niceBreakfast}`);
+
+let age = 16;
+const canDrive = age >= 18 ? 'can drive' : "can't drive";
+console.log(`age = 16 ${canDrive}`);
+
+let age = 18;
+const canDrive = age >= 18 ? 'can drive' : "can't drive";
+console.log(`age = 18 ${canDrive}`);
+```
+
+### String Operators
+- Returns the union of two strings.
+- Concatenation.
+```js
+let alpha = 'alpha'
+console.log(alpha + ' bet' + ' gamma');
+```
+### Falsy & Truthy
+- When a value is considerated false in contexts where a boolean is required. - FALSY
+```js
+// false
+console.log(false ? 'true' : 'false');
+
+// 0
+console.log(0 ? 'true' : 'false');
+
+// -0
+console.log(-0 ? 'true' : 'false');
+
+// ""
+console.log("" ? 'true' : 'false');
+
+// null
+console.log(null ? 'true' : 'false');
+
+// undefined
+console.log(undefined ? 'true' : 'false');
+
+// NaN
+console.log(NaN ? 'true' : 'false');
+
+```
+- When a value is considerated true in contexts where a boolean is required. - Truthy
+```js
+// true
+console.log(true ? 'true' : 'false');
+
+// {}
+console.log({} ? 'true' : 'false');
+
+// []
+console.log([] ? 'true' : 'false');
+
+// 1
+console.log(1 ? 'true' : 'false');
+
+// 3.456
+console.log(3.456 ? 'true' : 'false');
+
+// "0"
+console.log("0" ? 'true' : 'false');
+
+// "false"
+console.log("false" ? 'true' : 'false');
+
+// -1
+console.log(-1 ? 'true' : 'false');
+
+// Infinity
+console.log(Infinity ? 'true' : 'false');
+
+// -Infinity
+console.log(-Infinity ? 'true' : 'false');
+
+```
+### Operator Precedence
+_ Order from most importante to least important:
+- Grouping                          = ()
+- Denial, increment and decrement   = ! ++ --
+- Multiplication and Division       = * /
+- Addition and Subtraction          = + - 
+- Relational                        = < <= > >=
+- Equality                          = == != === !==
+- AND                               = &&
+- OR                                = ||
+- Conditional                       = ? :
+- Assignment                        = = += -= *=
