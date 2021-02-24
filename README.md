@@ -43,29 +43,29 @@
     * write in english;
 
 ## Functions
-- É um tipo de dado estrututral.
-- Agrupar um bloco de código.
-- Pode ou não receber parâmetros e argumentos.
-- Sempre irá ter um retorno.
-- Reutilização de código.
-- Palavra reservada function para declarar uma função (function statement).
-- A função só irá funcionar apartir do momento que for executada.
+- It is a type os data structure.
+- Grouping a block code.
+- May or may not receive parameters and arguments.
+- Always will be have a return.
+- Code reuse.
+- Function keyword to declare a function (function statement).
+- The function will only work from the moment it is executed.
 - EX:
 ```js
 // Function Statement
 function createPhrases() {
-    console.log(`Estude mais`);
-    console.log(`Estude mais`);
-    console.log(`Estude mais`);
+    console.log(`Study more`);
+    console.log(`Study more`);
+    console.log(`Study more`);
 }
 
 // Executing the function
 createPhrases();
 ```
 ### Argument and Parameters
-- Podemos declarar uma função dentro de uma variável.
-- Utiliza-se o function expression.
-- Funções possuem parâmentros que será o number1 e number2.
+- We can declare a function inside a variable.
+- Function expression is used.
+- Functions have parameters it will be the number1 and number2.
 
 ```js
 // Function statement with parameters
@@ -90,9 +90,9 @@ const sum = function(number1, number2) {
 let number1 = 34;
 let number2 = 54;
 
-console.log(`O número 1 é: ${number1}`);
-console.log(`O número 2 é: ${number2}`);
-console.log(`A soma dos dois números é: ${sum(number1, number2)}`);
+console.log(`The number 1 is: ${number1}`);
+console.log(`The number 2 is: ${number2}`);
+console.log(`The sum of both numbers is: ${sum(number1, number2)}`);
 /* First Block - End */
 /* Second Block - Start */
 const sum = function(number1, number2) {
@@ -103,9 +103,9 @@ const sum = function(number1, number2) {
 let number1 = 34;
 let number2 = 54;
 
-console.log(`O número 1 é: ${number1}`);
-console.log(`O número 2 é: ${number2}`);
-console.log(`A soma dos dois números é: ${sum(number1, number2)}`);
+console.log(`The number 1 is: ${number1}`);
+console.log(`The number 2 is: ${number2}`);
+console.log(`The sum of both numbers is: ${sum(number1, number2)}`);
 /* Second Block - End */
 ```
 ### Function Scope
