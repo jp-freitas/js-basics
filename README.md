@@ -543,3 +543,109 @@ if (higherTemperature) {
 }
 
 ```
+
+### Switch
+```js
+function calculate(number1, operator, number2) {
+    let result = 0;
+
+    switch (operator) {
+        case '+':
+            result = number1 + number2;
+            break;
+        case '-':
+            result = number1 - number2;
+            break;
+        case '*':
+            result = number1 * number2;
+            break;
+        case '/':
+            result = number1 / number2;
+            break;
+        default:
+            console.log('Not implemented');
+            break;
+    }
+
+    return result;
+}
+```
+
+### Throw e Try/Catch
+- Useful for error handling;
+- We are going to try a code block, if an error occurs, the code block will throw that error and we will get that error.
+```js
+
+// Throw
+function sayMyName(name = '') {
+    if (name === '') {
+        throw new Error('Name is required.');
+    }
+    console.log(name);
+}
+// Try...Catch
+try {
+    sayMyName();
+} catch(err) {
+    console.log(err);
+}
+```
+
+## Repeating structure
+### For
+```js
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+
+for (let i = 10; i > 0; i--) {
+    if (i === 25) {
+        continue;
+    }
+    console.log(i);
+}
+```
+### While
+```js
+let i = 4;
+while (i > 10) {
+    console.log(i);
+    i++;
+}
+```
+### For of
+```js
+let name = 'Joao';
+let names = ['Pedro', 'Maria'];
+
+for (let char of name) {
+    console.log(char);
+}
+
+```
+
+### For in
+```js
+let person = {
+    name: 'João',
+    age: 26,
+    weigth: 80.0,
+}
+
+for (let property in person) {
+    console.log(property);
+    console.log(person[property]);
+}
+```
+# Exercises
+- We will strengthen and practice knowledge, as well as learn tricks and tips to solve challenges and advance to the next level.
+
+## First
+- Create an algorithm that transforms the notes from the numerical system to the notes system in type A, B, C, D, E characters.
+- 90 and up         - A
+- between 80 - 89   - B
+- between 70 - 79   - C
+- between 60 - 69   - D
+- less than 60      - F
+
+[] - Resolvido.
