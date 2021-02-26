@@ -655,6 +655,7 @@ for (let property in person) {
     * income: []
     * expenses: []
 - Now, create a function that will calculate the total income and expenses and will show a message if the family has positive or negative balance, followed by the balance amount;
+
 [ ] - Solved.
 
 ## Third
@@ -662,6 +663,7 @@ for (let property in person) {
 - The calculate to transform are the following:
     * C = (F = 32) * 5/9
     * F = C * 9/5 + 32
+
 [ ] - Solved
 
 ## Fourth
