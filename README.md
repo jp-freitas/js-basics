@@ -664,7 +664,7 @@ for (let property in person) {
     * C = (F = 32) * 5/9
     * F = C * 9/5 + 32
 
-[ ] - Solved
+[-] - Solved
 
 ## Fourth
 - Fetching and counting data in Arrays
