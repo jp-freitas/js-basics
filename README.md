@@ -656,7 +656,7 @@ for (let property in person) {
     * expenses: []
 - Now, create a function that will calculate the total income and expenses and will show a message if the family has positive or negative balance, followed by the balance amount;
 
-[ ] - Solved.
+[-] - Solved.
 
 ## Third
 - Create a function that receives a string in celsius or fahrenheit and transform it from one unit to another.
