@@ -648,4 +648,40 @@ for (let property in person) {
 - between 60 - 69   - D
 - less than 60      - F
 
-[X] - Resolvido.
+[-] - Solved.
+
+## Second
+- Create an object that will have 2 properties, both of type array:
+    * income: []
+    * expenses: []
+- Now, create a function that will calculate the total income and expenses and will show a message if the family has positive or negative balance, followed by the balance amount;
+[ ] - Solved.
+
+## Third
+- Create a function that receives a string in celsius or fahrenheit and transform it from one unit to another.
+- The calculate to transform are the following:
+    * C = (F = 32) * 5/9
+    * F = C * 9/5 + 32
+[ ] - Solved
+
+## Fourth
+- Fetching and counting data in Arrays
+- Based on the Books by Category Array below, do the following challenges:
+    * Count the number of categories and the number of books in each category.
+    * Count the number of authors.
+    * Show books by the author Augusto Cury.
+    * Transform the function above into a function that will receive the name of the author and return the books of that author.
+
+```js
+const booksByCategory = [
+    {
+        category: "Riqueza",
+        books: [],
+    },
+    {
+        category: "Inteligência Emocional",
+        books: [],
+    },
+];
+```
+[ ] - Solved.
