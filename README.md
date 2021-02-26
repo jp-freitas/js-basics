@@ -648,4 +648,4 @@ for (let property in person) {
 - between 60 - 69   - D
 - less than 60      - F
 
-[] - Resolvido.
+[X] - Resolvido.
