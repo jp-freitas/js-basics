@@ -43,7 +43,7 @@
     * write in english;
 
 ## Functions
-- It is a type os data structure.
+- It is a type of data structure.
 - Grouping a block code.
 - May or may not receive parameters and arguments.
 - Always will be have a return.
